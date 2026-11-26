@@ -1,0 +1,22 @@
+# Contributors: adityarajpoot77, akshatjoshi1415
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Local SQLite database & runtime data
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Environment & secrets
+.env
+.env.*
+
+# Logs & OS files
+*.log
+.DS_Store
+Thumbs.db
